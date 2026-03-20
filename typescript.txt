@@ -1,0 +1,94 @@
+Script started on 2026-03-20 03:04:50+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="143" LINES="16"]
+[?2004h[0;32m@Lynnywoo [0m➜ [1;34m/workspaces/Project2-Shopping [0;36m([1;31mmain[0;36m) [0m$ [7mg++ project2.cpp item.cpp -o a.out[27m
+[7m./a.out[27m[A[0;32m@Lynnywoo [0m➜ [1;34m/workspaces/Project2-Shopping [0;36m([1;31mmain[0;36m) [0m$ g++ project2.cpp item.cpp -o a.out
+./a.out
+[?2004l
+Welcome to XXX SHOPPING CENTER.
+Enter the item you selected as the following order:
+name unitPrice quantity
+(Name can not contain any space. Otherwise errors happen!)
+
+--> T-shirt 19.99 2
+Want to continue y/n-->y
+
+--> Sweater 39.99 1
+Want to continue y/n-->y
+
+--> iphone_case 25.50 3
+Want to continue y/n-->y
+
+--> Towel 9.99 5
+Want to continue y/n-->n
+
+Here is your order:
+-------------------------------------------------
+Name                Unit_Price          Quantity  
+T-shirt             $19.99              2         
+Sweater             $39.99              1         
+iphone_case         $25.50              3         
+Towel               $9.99               5         
+The total charge is $206.42
+--------------------------------------------------
+
+Want to modify your order? y/n-->y
+What do you want? Enter 1: add  2: remove  3: change quantity
+--> 1
+Enter the item to add as the following order:
+name unitPrice quantity
+--> shoe 99.99 1
+The item has been added.
+
+Want to modify your order? y/n-->y
+What do you want? Enter 1: add  2: remove  3: change quantity
+--> 2
+Enter the item to remove as the following order:
+name unitPrice quantity
+--> Sweater 29.99 1
+No such item in your shopping cart!
+
+Want to modify your order? y/n-->y
+What do you want? Enter 1: add  2: remove  3: change quantity
+--> 3
+Enter the item to change as the following order:
+name unitPrice quantity
+--> jacket 59.99 1
+No such item in your shopping cart!
+
+Want to modify your order? y/n-->y
+What do you want? Enter 1: add  2: remove  3: change quantity
+--> 2
+Enter the item to remove as the following order:
+name unitPrice quantity
+--> Sweater 39.99 1
+The item has been removed.
+
+Want to modify your order? y/n-->y
+What do you want? Enter 1: add  2: remove  3: change quantity
+--> 3
+Enter the item to change as the following order:
+name unitPrice quantity
+--> Towel 9.99 5
+Enter a new quantity --> -2
+-2 is not a valid input.
+Enter a new quantity --> 2
+The quantity has been modified.
+
+Want to modify your order? y/n-->n
+
+Here is your updated order:
+-------------------------------------------------
+You have ordered the following items:
+-------------------------------------------------
+Name                Unit_Price          Quantity  
+T-shirt             $19.99              2         
+shoe                $99.99              1         
+iphone_case         $25.50              3         
+Towel               $9.99               2         
+The total charge is $236.45
+--------------------------------------------------
+Thanks for shopping in XXX SHOPPING CENTER.
+[?2004h[0;32m@Lynnywoo [0m➜ [1;34m/workspaces/Project2-Shopping [0;36m([1;31mmain[0;36m) [0m$ ^C[?2004l[?2004h[?2004l
+[?2004h[0;32m@Lynnywoo [1;31m➜ [1;34m/workspaces/Project2-Shopping [0;36m([1;31mmain[0;36m) [0m$ exit
+[?2004lexit
+
+Script done on 2026-03-20 03:08:59+00:00 [COMMAND_EXIT_CODE="130"]
